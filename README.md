@@ -114,17 +114,22 @@ Total loan amount is 4bn.
 “2015 recorded the highest loan volume and improved loan status performance compared to previous years.”
 “A positive growth trend is observed in 2015, with higher funded amounts and reduced default ratio.”
 
+<img width="968" height="555" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_31_22" src="https://github.com/user-attachments/assets/8367f842-4daa-4cc2-9b66-fe6922c020b1" />
+<img width="928" height="535" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_31_50" src="https://github.com/user-attachments/assets/6190b22a-636f-421a-a7c9-94ceff0ca93e" />
+<img width="952" height="538" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_32_13" src="https://github.com/user-attachments/assets/67e8a4aa-a4f5-464b-9879-75d27dc1802d" />
+<img width="970" height="557" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_32_24" src="https://github.com/user-attachments/assets/5f2f1b85-1fa5-4da4-b710-3d4bdf8101e3" />
+<img width="980" height="565" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_32_43" src="https://github.com/user-attachments/assets/12ea8819-97aa-4b1c-9c9e-b25fa09a8ba2" />
+<img width="908" height="542" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_32_55" src="https://github.com/user-attachments/assets/a15218c5-bbba-46b5-b312-6a48e049f872" />
+<img width="950" height="555" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_33_08" src="https://github.com/user-attachments/assets/b6f6ed85-8021-4fdf-ae06-16a4d67a03e2" />
+<img width="966" height="510" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_33_26" src="https://github.com/user-attachments/assets/d997918f-4159-409f-91a9-b442492a8039" />
+<img width="990" height="548" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_33_37" src="https://github.com/user-attachments/assets/bf1a250b-5cbc-4ed1-840b-fefde0b8ac77" />
+<img width="956" height="563" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_33_47" src="https://github.com/user-attachments/assets/9be2fa8f-a042-4638-860b-1c24114b580d" />
+<img width="965" height="572" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_33_57" src="https://github.com/user-attachments/assets/00886f2c-ff67-4695-8eb1-a7489b4ef2a8" />
 
 
+                                                DASH BOARD  
 
+                                                
 
-
-
-
-
-
-
-
-
-
-
+<img width="917" height="503" alt="Power BI Desktop 26-02-2026 23_46_21" src="https://github.com/user-attachments/assets/99c6366a-9ef7-412f-acbd-1ce2f0a1dcc3" />
+<img width="920" height="491" alt="Power BI Desktop 26-02-2026 23_46_31" src="https://github.com/user-attachments/assets/1951cace-f7e5-49e3-9af2-7fd41977194e" />
