@@ -1,4 +1,4 @@
-# BANK-LOAN-ANALYSIS-EXCEL--SQL-POWER-BI-
+# FINTECH-BANK-LOAN-ANALYSIS-EXCEL--SQL-POWER-BI-
 End-to-end bank loan analysis project using excel , sql server and power bi.Including risk analysis,trend analysis and interactive dashboard.
 
 KEY METRICS
@@ -98,16 +98,17 @@ Interest rate should increase during 2015, but later on the rate is reduced and 
 The decision we have taken must not cost high, but the high loan amount & risk are moderate in both.
 
 -Coming to KPIs:
-The charged off count is 131K.
+The charged off count is 18K.
 Total applications:
 Total applications are 270K.
 Default rate:
 Default rate is 6.60%.
 Average loan amount:
-Avg loan amount is 15.4K.
+Avg loan amount is 15.41K.
 Total loan amount:
 Total loan amount is 4bn.
-
+High risk count :
+High risk count is 19k 
 ---OVER ALL PERFORMANCE---
 
 “The bank showed significant performance growth in 2015, driven by increased total loan disbursement and improved loan repayment rates.”
@@ -130,6 +131,5 @@ Total loan amount is 4bn.
                                                 DASH BOARD  
 
                                                 
+<img width="1217" height="502" alt="image" src="https://github.com/user-attachments/assets/707d7b66-2da2-47ee-80f8-f83f9105da62" />
 
-<img width="917" height="503" alt="Power BI Desktop 26-02-2026 23_46_21" src="https://github.com/user-attachments/assets/99c6366a-9ef7-412f-acbd-1ce2f0a1dcc3" />
-<img width="920" height="491" alt="Power BI Desktop 26-02-2026 23_46_31" src="https://github.com/user-attachments/assets/1951cace-f7e5-49e3-9af2-7fd41977194e" />
