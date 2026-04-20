@@ -1,119 +1,111 @@
-# FINTECH-BANK-LOAN-ANALYSIS-EXCEL--SQL-POWER-BI-
-End-to-end bank loan analysis project using excel , sql server and power bi.Including risk analysis,trend analysis and interactive dashboard.
+# END-TO-END LOAN DEFAULT ANALYSIS AND RISK SEGMENTATION 
 
-KEY METRICS
+This project performs a comprehensive analysis of a bank's loan portfolio using a multi-tool analytics pipeline. It answers critical business questions around:
 
--Total Loan Applications
-Total number of loan applications received.
+- *Who is borrowing?* (income, geography, loan purpose)
+- *How are loans performing?* (fully paid vs. charged off vs. current)
+- *Where is the risk?* (default rate, DTI, high-risk segments)
+- *How is the bank trending?* (year-over-year growth, interest rate shifts)
 
-2️⃣ Total Loan Amount Issued
-Overall loan amount disbursed to customers.
+The result is a fully interactive Power BI dashboard that enables data-driven lending decisions.
 
-3️⃣ Total Amount Received
-Total repayments collected from borrowers.
+---
 
-4️⃣ Loan Status Distribution
-Breakdown of loans as:
-Fully Paid
-Current
-Charged Off
+## 🛠 Tech Stack
 
-5️⃣ Default Rate (%)
-Percentage of loans that were charged off compared to total loans.
+| Tool | Purpose |
+|---|---|
+| *Microsoft Excel* | Data cleaning, pivot analysis, initial exploration |
+| *SQL Server (SSMS)* | Data querying, KPI extraction, aggregation |
+| *Power BI* | Interactive dashboard, visual storytelling |
 
-6️⃣ Average Interest Rate
-Average interest charged across all issued loans.
+---
 
-7️⃣ Average Annual Income
-Average borrower income used to assess financial strength.
+## 📊 Key Metrics Tracked
 
-8️⃣ Debt-to-Income (DTI) Ratio
-Measures borrower repayment capacity and financial risk exposure.
+| # | Metric | Description |
+|---|---|---|
+| 1 | Total Loan Applications | Count of all loan requests received |
+| 2 | Total Loan Amount Issued | Total disbursed principal across all loans |
+| 3 | Total Amount Received | Cumulative repayments collected from borrowers |
+| 4 | Loan Status Distribution | Breakdown: Fully Paid / Current / Charged Off |
+| 5 | Default Rate (%) | Charged-off loans as a % of total issued |
+| 6 | Average Interest Rate | Mean interest rate across the portfolio |
+| 7 | Average Annual Income | Borrower income used to assess creditworthiness |
+| 8 | Debt-to-Income (DTI) Ratio | Borrower repayment capacity indicator |
+| 9 | Loan Distribution by Term | 36-month vs. 60-month performance split |
+| 10 | Loan Distribution by State | Geographic risk and volume heatmap |
+| 11 | Year-wise Loan Growth | Disbursement volume trends over time |
+| 12 | Risk Segmentation | Low / Medium / High risk classification |
 
-9️⃣ Loan Distribution by Term
-Comparison of 36-month vs 60-month loan performance.
+---
 
-🔟 Loan Distribution by State
-Identifies igh-performing and high-risk states.
+## 🎯 Business Objectives
 
-1️⃣1️⃣ Year-wise Loan Growth
-Tracks loan disbursement trend over time.
+1. Evaluate overall loan portfolio health and distribution.
+2. Identify the volume and trend of charged-off (defaulted) loans.
+3. Segment customers by risk level using income, loan amount, and DTI.
+4. Analyze loan disbursement trends year over year.
+5. Understand geographic and product-level performance.
+6. Measure year-over-year bank performance improvement.
+7. Deliver actionable insights via SQL and Power BI for decision-makers.
 
-1️⃣2️⃣ Risk Segmentation
-Customer categorization into:
-Low Risk
-Medium Risk
-High Risk
+---
 
-OBJECTIVES USE 
+## 💡 Key Insights
 
-To analyze overall loan distribution and performance.
-To evaluate loan status (Fully Paid, Charged Off, Current).
-To identify high-risk customer segments based on income and loan amount.
-To analyze loan trends over time.
-To understand loan distribution by state and term.
-To measure bank performance improvement year over year.
-To support data-driven decision-making using SQL and BI tools.
+### 🔹 Loan Term Preference
+- *59.16%* of loans are 36-month (short-term); only 40.84% are 60-month.
+- *Insight:* Borrowers strongly prefer shorter commitments, indicating lower risk appetite and cautious borrowing behavior.
 
-         INSIGHTS 
-         
--Loan amount by term:
+### 🔹 Loan Purpose — Debt Consolidation Dominates
+- Debt consolidation accounts for *40.68%* of all loan purposes.
+- Combined with credit card refinancing, *62.71%* of borrowers are managing existing liabilities.
+- *Insight:* The bank's primary customer base consists of debt-restructuring borrowers, not new capital seekers.
 In 60 months there is 40.84% and in 36 months 59.16%.
 So majority customers prefer shorter term loans.
 
--Most common purpose of loan:
-Debt consolidation is 40.68%, followed by credit card.
-This indicates they are managing existing debts (62.71%).
+### 🔹 Loan Status & Portfolio Stability
+- Current payables carry the highest outstanding loan amounts, while fully paid loans remain relatively low in count.
+- *Insight:* The portfolio is active and growing, but repayment velocity needs monitoring.
 
--Loan amount by status:
-Loan amount is high in current payables, but only less loans have been paid fully.
-So portfolio is stable.
+### 🔹 Charged-Off Trend
+- Charged-off cases spiked by *+123.31%* at peak, then declined by *84.41%* — a net reduction of *38.1%*.
+- The effective impact on portfolio health is a *18.19%* improvement in default control.
 
--Charged off cases:
-Charged off cases spiked by 123.31% then gradually fell by 84.41%.
-The difference is 38.1% fall in charged count.
-So the effect is 18.19.
+### 🔹 High-Risk Segment
+- *35,200 loans* are classified as high-risk, with loan amounts ranging *$30K–$60K*, spread across multiple states.
+- *Insight:* High-risk accounts are geographically distributed, requiring state-level risk policies.
 
--High risk loan count:
-High risk loan count is 35,200 where loan amount is between 30k to 60k and varies across the region.
+### 🔹 Payment Completion
+- Only *50% of the total payment obligation* (270.3K of 540.6K) has been fulfilled.
+- *Insight:* A significant repayment backlog exists — collections strategy review is recommended.
 
--Payment plan:
-The count of payment plan is only 270.3K while overall is 540.60K.
-So 270.3 is half of the payment done.
-There is more half to be paid.
+### 🔹 Default Rate by Year
+- Default rate peaked in *2015* at *18.9%* (funded amount: $63.9M), then declined steadily through 2018 before recovering to $85.2M in disbursement with a stable default ratio.
+- *Insight:* Portfolio quality improved significantly post-2015 despite higher volumes.
 
--Default analysis by issue year:
-Default rate is high in 2015 by funded amount 63,943,475 and default rate is 18.9.
-Later till 2019 it started decreasing, but increases to 85,235,542.5.
-So it is steady and stable.
+### 🔹 Term vs. Default Rate
+- The *60-month term* carries a disproportionately higher default rate than 36-month loans.
+- *Insight:* Longer loan durations correlate with increased borrower default risk.
 
--Loan term vs default rate:
-When comes to loan by default rate, the same default rate is high in 60 months.
-So it indicates customers prefer short term.
+### 🔹 Interest Rate Trend
+- Interest rates peaked in *2015*, then gradually declined and stabilized — indicating improved risk-adjusted pricing over time.
 
--Interest rate:
-Interest rate should increase during 2015, but later on the rate is reduced and had smaller difference.
+  # 🗄 SQL Queries Preview
 
--Suggestion:
-The decision we have taken must not cost high, but the high loan amount & risk are moderate in both.
+The following SQL analyses were performed in *Microsoft SQL Server Management Studio (SSMS)*:
 
--Coming to KPIs:
-The charged off count is 18K.
-Total applications:
-Total applications are 270K.
-Default rate:
-Default rate is 6.60%.
-Average loan amount:
-Avg loan amount is 15.41K.
-Total loan amount:
-Total loan amount is 4bn.
-High risk count :
-High risk count is 19k 
----OVER ALL PERFORMANCE---
+- Total loan applications and disbursement by year
+- Default rate calculation (charged-off / total)
+- Average interest rate by loan term and status
+- High-risk loan segmentation by income band and geography
+- Month-over-month and year-over-year growth queries
+- DTI ratio aggregation by loan purpose
+- Payment plan completion analysis
 
-“The bank showed significant performance growth in 2015, driven by increased total loan disbursement and improved loan repayment rates.”
-“2015 recorded the highest loan volume and improved loan status performance compared to previous years.”
-“A positive growth trend is observed in 2015, with higher funded amounts and reduced default ratio.”
+ 📸 See SQL screenshots below (scroll down to the Screenshots section)
+
 
 <img width="968" height="555" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_31_22" src="https://github.com/user-attachments/assets/8367f842-4daa-4cc2-9b66-fe6922c020b1" />
 <img width="928" height="535" alt="SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - SQLQuery2 sql - BILLA RAJINI bank_data (DESKTOP-B9RQCTF_LENOVO (58)) - Microsoft SQL Server Management Studio 26-02-2026 23_31_50" src="https://github.com/user-attachments/assets/6190b22a-636f-421a-a7c9-94ceff0ca93e" />
@@ -130,6 +122,32 @@ High risk count is 19k
 
                                                 DASH BOARD  
 
+# 📈 Power BI Dashboard
+
+The dashboard provides:
+- KPI cards for all 12 key metrics
+- Loan status donut / bar charts
+- State-level geographic heatmap
+- Year-wise loan growth line chart
+- Risk segmentation treemap / bar
+- Term vs. default rate comparison
+- Interactive slicers for year, state, purpose, and risk level
+
+---
+## 📋 KPI Summary
+
+| KPI | Value |
+|---|---|
+| Total Loan Applications | 270,000 |
+| Total Loan Amount | $4 Billion |
+| Avg. Loan Amount | $15,410 |
+| Default Rate | 6.60% |
+| Charged-Off Count | 18,000 |
+| High-Risk Loan Count | 19,000 |
+| Payment Completion | ~50% |
+                        
                                                 
 <img width="1217" height="502" alt="image" src="https://github.com/user-attachments/assets/707d7b66-2da2-47ee-80f8-f83f9105da62" />
 
+## OVER ALL REVIEW ##
+"The bank demonstrated significant performance growth in 2015, driven by increased loan disbursement and improved repayment rates. Post-2015, a consistent reduction in default ratio was observed even as portfolio volume expanded — indicating stronger underwriting standards and risk controls. The data supports a stable, growing lending operation with targeted opportunities for improvement in long-term loan default management and collections efficiency."
